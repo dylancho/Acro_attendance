@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>897442764322-kp8od5qcbaqou9bnncd28fi0gllh0ntj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.897442764322-kp8od5qcbaqou9bnncd28fi0gllh0ntj</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>897442764322-8t9jnkb3mc7k806f2qn1oq3njc7bnhcv.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCVH5S0kd8MNHXsyx4tp3uj-j3q7v35OPo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>897442764322</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.acroAttendance</string>
+	<key>PROJECT_ID</key>
+	<string>vue-http-demo-9e410</string>
+	<key>STORAGE_BUCKET</key>
+	<string>vue-http-demo-9e410.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:897442764322:ios:26dd342bff0be6a17d1c7b</string>
+	<key>DATABASE_URL</key>
+	<string>https://vue-http-demo-9e410-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

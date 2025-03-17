@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "897442764322",
+    "firebase_url": "https://vue-http-demo-9e410-default-rtdb.firebaseio.com",
+    "project_id": "vue-http-demo-9e410",
+    "storage_bucket": "vue-http-demo-9e410.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897442764322:android:d3af7568d3958cb67d1c7b",
+        "android_client_info": {
+          "package_name": "com.example.acro_attendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897442764322-k9sejvg1lobu33itn0ahiepuvfi6hsrl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQq9a84h0A5uEKG4AIhHNWLEtX8fACMj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897442764322-k9sejvg1lobu33itn0ahiepuvfi6hsrl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "897442764322-kp8od5qcbaqou9bnncd28fi0gllh0ntj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.acroAttendance"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897442764322:android:a7d0a33b1a876bb17d1c7b",
+        "android_client_info": {
+          "package_name": "com.example.timenote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897442764322-8t9jnkb3mc7k806f2qn1oq3njc7bnhcv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.timenote",
+            "certificate_hash": "0c496fb27bd7551bce54299761f9bf139fee29cf"
+          }
+        },
+        {
+          "client_id": "897442764322-k9sejvg1lobu33itn0ahiepuvfi6hsrl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQq9a84h0A5uEKG4AIhHNWLEtX8fACMj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897442764322-k9sejvg1lobu33itn0ahiepuvfi6hsrl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "897442764322-kp8od5qcbaqou9bnncd28fi0gllh0ntj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.acroAttendance"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
