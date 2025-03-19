@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_database/firebase_database.dart';
+import 'package:intl/intl.dart'; // For date formatting
 
 class AttendanceListScreen extends StatefulWidget {
   @override
@@ -28,10 +29,15 @@ class _AttendanceListScreenState extends State<AttendanceListScreen> {
     });
   }
 
+  String formatTimestamp(int timestamp) {
+    return DateFormat('yyyy-MM-dd HH:mm:ss')
+        .format(DateTime.fromMillisecondsSinceEpoch(timestamp));
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Attendance Records")),
+      appBar: AppBar(title: Text("출석 기록")),
       body: ListView(
         children: attendanceData.entries.map((entry) {
           String date = entry.key;
@@ -39,11 +45,11 @@ class _AttendanceListScreenState extends State<AttendanceListScreen> {
           return ExpansionTile(
             title: Text("📅 $date"),
             children: users.entries.map<Widget>((userEntry) {
-              String userId = userEntry.key;
               Map userData = userEntry.value;
               return ListTile(
-                title: Text("👤 User: $userId"),
-                subtitle: Text("📌 Status: ${userData['status']}"),
+                title: Text("👤 ${userData['name']}"),
+                subtitle:
+                    Text("📌 출석 시간: ${formatTimestamp(userData['timestamp'])}"),
               );
             }).toList(),
           );
